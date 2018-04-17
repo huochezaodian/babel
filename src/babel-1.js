@@ -12,4 +12,9 @@ let d = {...c};
 
 class Foo {
     method() {}
+    constructor(props) {
+      super(props);
+    
+      this.state = {};
+    }
 }
